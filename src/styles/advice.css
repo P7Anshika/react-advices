@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Condensed&display=swap');
+
+button {
+    width: 70px;
+    height: 69px;
+    border-radius: 50%;
+    background-color: #55FCAA;
+    border: none;
+}
+
+button:hover {
+    transform: rotate(240deg);
+    transition: 1s;
+}
+
+button {
+    cursor: pointer;
+    display: block;
+    margin-left: 31.5%;
+    margin-top: -35px;
+}
+
+div .card {
+    width: 55%;
+    border-radius: 12px;
+    padding: 80px;
+    height: 30%;
+    /* background-color: #313A49; */
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+hr {
+    margin-bottom: 12px;
+    display: inline-block;
+    ;
+    width: 40%;
+    /* height: 1px; */
+    color: #444E5C;
+    /* border: 2px; */
+    background-color: #444E5C;
+    height: 1px;
+    border: 0;
+}
+
+svg.bi.bi-pause-fill.pause {
+    padding: 0 10px;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    color: #8DD9C7;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.3em;
+}
